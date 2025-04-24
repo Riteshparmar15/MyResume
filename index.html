@@ -5,7 +5,7 @@
     <!--- basic page needs
     ================================================== -->
     <meta charset="utf-8">
-    <title>Luther</title>
+    <title>Ritesh Parmar</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -67,7 +67,7 @@
                         <li class="current"><a href="#intro" class="smoothscroll">Intro</a></li>
                         <li><a href="#about" class="smoothscroll">About</a></li>
                         <li><a href="#works" class="smoothscroll">Experience</a></li>
-                        <li><a href="#contact" class="smoothscroll">Contect Me</a></li>
+                        <li><a href="#contact" class="smoothscroll">Contect</a></li>
                     </ul>
                 </nav>
             </div>
@@ -119,27 +119,37 @@
             <section id="about" class="s-about target-section">
 
 
-                <div class="row about-info wide" data-animate-block>
+                <div class="row about-info wide" data-animate-block style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center;">
 
-                    <div class="column lg-6 md-12 about-info__pic-block">
-                        <img src="D:\RESUME\images\mine.jpg" 
-                             srcset="images/about-photo.jpg 1x, images/mine1.jpg 2x" alt="" class="about-info__pic" data-animate-el>
-                    </div>
-                    <div class="column lg-6 md-12">
-                        <div class="about-info__text" >
-
+                    <!-- 👈 Text on the Left -->
+                    <div class="column lg-6 md-12 about-info__text-block" style="flex: 1;">
+                        <div class="about-info__text">
+                
                             <h2 class="text-pretitle with-line" data-animate-el>
                                 About
                             </h2>
+                
                             <p class="attention-getter text-blue-400" data-animate-el>
-                              I am a dedicated Software Developer with over 2 years of hands-on experience in designing and developing scalable web applications, RESTful APIs, and dynamic data-driven solutions. I specialize in C#, .NET Core, ASP.NET, and database technologies like MySQL and MS SQL Server. With a proven track record of delivering high-performance software across domains such as IoT and energy, I bring strong problem-solving skills, clean architecture practices, and team collaboration to every project. I’m a quick learner who is passionate about continuous growth and adapting to emerging technologies.
+                                I’m a dedicated <strong>Full-Stack Software Developer</strong> with over <strong>2 years of experience</strong>, passionate about building scalable web applications, RESTful APIs, and data-driven solutions. I specialize in <strong>C#, .NET Core, ASP.NET</strong>, and modern frontend frameworks like <strong>Angular</strong>, backed by robust databases such as <strong>MySQL</strong> and <strong>MS SQL Server</strong>.
                             </p>
-                            
-                            <a href="RITESH PARMAR NEW RESUME.pdf" class="btn btn--medium u-fullwidth" data-animate-el>Download CV</a>
-
+                
+                            <a href="NEW_RITESH_CV.pdf" class="btn btn--medium u-fullwidth mt-4" data-animate-el>Download CV</a>
+                
                         </div>
                     </div>
-                </div> <!-- about-info -->
+                
+                    <!-- 👉 Image on the Right -->
+                    <div class="column lg-6 md-12 about-info__pic-block" style="flex: 1; text-align: center;">
+                        <img src="images/mine1.jpg"
+                             srcset="images/mine1.jpg 1x, images/mine.jpg 2x"
+                             alt="Ritesh Parmar Photo"
+                             class="about-info__pic"
+                             data-animate-el
+                             style="max-width: 100%; height: auto; border-radius: 12px; box-shadow: 0 4px 15px rgba(0,0,0,0.15);">
+                    </div>
+                
+                </div>
+                 <!-- about-info -->
 
 
                 <div class="row about-expertise" data-animate-block>
@@ -177,7 +187,7 @@
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">HKRP Innovation Pvt. Ltd.</h3>
                                     <h5 class="timeline__meta">Junior Software Engineer</h5>
-                                    <p class="timeline__timeframe">July 2023 - Present</p>
+                                    <p class="timeline__timeframe">Jan 2023 - Present</p>
                                 </div>
                                 <div class="timeline__desc">
                                     <p>As a core team member at HKRP Innovation, I played a pivotal role in designing and
@@ -187,7 +197,7 @@
                                 </div>
                             </div>
     
-                            <div class="timeline__block">
+                            <!--<div class="timeline__block">
                                 <div class="timeline__bullet"></div>
                                 <div class="timeline__header">
                                     <h4 class="timeline__title">HKRP Innovation Pvt. Ltd.</h4>
@@ -197,7 +207,7 @@
                                 <div class="timeline__desc">
                                     <p>Contributed to the development of enterprise-level applications using .NET Core and Angular. Gained hands-on experience in creating RESTful APIs, database integration using MS SQL Server, and frontend components with Angular. Collaborated with senior developers on real-time energy domain projects and actively participated in code reviews and debugging sessions. This internship laid a strong foundation in full-stack development best practices.</p>
                                 </div>
-                            </div>
+                            </div>-->
     
                         </div> <!-- end timeline -->
 
@@ -259,7 +269,7 @@
                         <h2 class="text-pretitle" data-animate-el>
                             Recent Works
                         </h2>
-                        <p class="h1" data-animate-el>
+                        <p class="h1    " data-animate-el>
                             Here are some of my recent projects I have done. Feel free to check them out.
                         </p>
     
@@ -397,7 +407,7 @@
 
 
                     <!-- Modal Templates Popup
-                    -------------------------------------------- -->
+                     -->
                     <div id="modal-01" hidden>
                         <div class="modal-popup">
                             <img src="images/portfolio/gallery/g-fuji.jpg" alt="">
@@ -589,7 +599,7 @@
                             Get In Touch
                         </h2>
 
-                        <p class="h1">
+                        <p class="h2">
                           I’d love to hear from you!
                           Whether you have a question about .NET development, APIs, databases, or just want to chat about tech and backend architecture — feel free to drop me a message.
                         </p>
@@ -600,7 +610,7 @@
                     <div class="column lg-4 md-5 tab-6 stack-on-550 contact-block">
                         <h3 class="text-pretitle">Reach me at</h3>
                         <p class="contact-links">
-                            <a href="mailto:sayhello@luther.com" class="mailtoui">ritesh.parmar1599@gmail.com </a> <br>
+                            <a href="mailto:ritesh.parmar1599@gmail.com" class="mailtoui">ritesh.parmar1599@gmail.com </a> <br>
                             <a href="tel:+1975432345">+91 9313512434</a>
                         </p>
                     </div>
@@ -608,13 +618,12 @@
                         <h3 class="text-pretitle">Social</h3>
                         <ul class="contact-social">
                             <li><a href="https://www.linkedin.com/in/ritesh-parmar-13ab7a23a">LinkedIn</a></li>
+                            <li><a href="https://github.com/Riteshparmar15">Github</a></li>
                             <li><a href="#0">Twitter</a></li>
-                            <li><a href="#0">Instagram</a></li>
-                            <li><a href="#0">Github</a></li>
                         </ul>
                     </div>
                     <div class="column lg-4 md-12 contact-block">
-                        <a href="mailto:sayhello@luther.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
+                        <a href="mailto:ritesh.parmar1599@gmail.com" class="mailtoui btn btn--medium u-fullwidth contact-btn">Say Hello.</a>
                     </div>
                 </div> <!-- end contact-bottom -->
 
